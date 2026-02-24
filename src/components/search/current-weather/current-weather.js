@@ -2,13 +2,13 @@ import './current-weather.css';
 
 const CurrentWeather =() =>{
 return (
-    <div classname ="weather">
-     <div classname ="top">
-        <p classname="city">City</p>
-        <p classname="weather-descripstion">Temp</p>
+    <div className ="weather"> 
+     <div className ="top"> 
+        <p className="city">City</p> 
+        <p className="weather-descripstion">Temp</p> 
      </div>
-     <img alt ="weather" classname ="weather-icon" src=""/>
-        
+     <img alt ="weather" className ="weather-icon" src="icons/01d.png"/> 
+
     </div>
 );
 }
